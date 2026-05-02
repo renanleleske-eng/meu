@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.VideoPlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vlc_orange</item>
+        <item name="colorPrimaryDark">@color/vlc_orange_dark</item>
+        <item name="colorAccent">@color/vlc_orange</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.VideoPlayer</item>
+        <item name="tabStyle">@style/Widget.VideoPlayer.Tab</item>
+    </style>
+
+    <style name="ThemeOverlay.VideoPlayer" parent="">
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorBackground">@color/bg_primary</item>
+        <item name="colorPrimary">@color/vlc_orange</item>
+    </style>
+
+    <style name="Widget.VideoPlayer.Tab" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextColor">@color/text_secondary</item>
+        <item name="tabSelectedTextColor">@color/vlc_orange</item>
+        <item name="tabIndicatorColor">@color/vlc_orange</item>
+        <item name="tabBackground">@color/bg_primary</item>
+        <item name="tabIconTint">@color/tab_icon_color</item>
+    </style>
+
+    <style name="Theme.VideoPlayer.Player" parent="Theme.VideoPlayer">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/player_bg</item>
+    </style>
+
+</resources>

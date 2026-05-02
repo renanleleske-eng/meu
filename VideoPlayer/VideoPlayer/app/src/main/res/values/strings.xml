@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="tab_videos">Vídeos</string>
+    <string name="tab_folders">Pastas</string>
+    <string name="search_hint">Buscar vídeos…</string>
+    <string name="permission_denied">Permissão necessária para acessar vídeos</string>
+    <string name="no_videos">Nenhum vídeo encontrado</string>
+    <string name="no_folders">Nenhuma pasta encontrada</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="sort_date_newest">Mais recentes</string>
+    <string name="sort_date_oldest">Mais antigos</string>
+    <string name="sort_name">Nome</string>
+    <string name="sort_duration">Duração</string>
+    <string name="sort_size">Tamanho</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_rotate">Rotacionar</string>
+    <string name="btn_lock">Bloquear</string>
+    <string name="btn_pip">Picture in Picture</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais -->
+    <color name="vlc_orange">#FF8800</color>
+    <color name="vlc_orange_dark">#CC6600</color>
+    <color name="vlc_orange_light">#FFAA33</color>
+
+    <!-- Background dark -->
+    <color name="bg_primary">#111111</color>
+    <color name="bg_secondary">#1A1A1A</color>
+    <color name="bg_card">#222222</color>
+    <color name="bg_card_hover">#2A2A2A</color>
+    <color name="bg_surface">#1E1E1E</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- Player -->
+    <color name="player_bg">#000000</color>
+    <color name="controls_bg">#99000000</color>
+
+    <!-- Outros -->
+    <color name="divider">#2A2A2A</color>
+    <color name="ripple">#33FF8800</color>
+    <color name="badge_4k">#E53935</color>
+    <color name="badge_fhd">#1976D2</color>
+    <color name="badge_hd">#388E3C</color>
+</resources>
